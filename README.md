@@ -21,7 +21,7 @@ Arvix:
 1. Clone the repo
 
    ```
-   git clone https://github.com/0415070/Protoformer.git
+   git clone https://github.com/ashfarhangi/Protoformer.git
    ```
 
 2. Install requirement packages
