@@ -3,6 +3,7 @@
 # Protoformer
 
 [![Conference](http://img.shields.io/badge/PAKDD-2020-4b44ce.svg)](https://link.springer.com/chapter/10.1007/978-3-031-05933-9_35)
+</div>
 
 ## Getting Started
 
