@@ -1,6 +1,8 @@
+<div align="center">
+
 # Protoformer
 
-
+[![Conference](http://img.shields.io/badge/PAKDD-2020-4b44ce.svg)](https://link.springer.com/chapter/10.1007/978-3-031-05933-9_35)
 
 ## Getting Started
 
@@ -41,7 +43,16 @@ To use the data properly, you need to use your own official Twitter API. Please 
 4. Run model.py after the dataset has been gathered  
 
 
-## Contributing
+## Citation   
 
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Farhangi, Ashkan, Ning Sui, Nan Hua, Haiyan Bai, Arthur Huang, and Zhishan Guo. "Protoformer: Embedding Prototypes for Transformers." In Advances in Knowledge Discovery and Data Mining: 26th Pacific-Asia Conference, PAKDD 2022, Chengdu, China, May 16–19, 2022, Proceedings, Part I, pp. 447-458. 2022.
 
+```
+@inproceedings{farhangi2022protoformer,
+  title={Protoformer: Embedding Prototypes for Transformers},
+  author={Farhangi, Ashkan and Sui, Ning and Hua, Nan and Bai, Haiyan and Huang, Arthur and Guo, Zhishan},
+  booktitle={Advances in Knowledge Discovery and Data Mining: 26th Pacific-Asia Conference, PAKDD 2022, Chengdu, China, May 16--19, 2022, Proceedings, Part I},
+  pages={447--458},
+  year={2022}
+}
+```
