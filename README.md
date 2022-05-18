@@ -15,19 +15,22 @@ Arvix:
 ![](https://github.com/0415070/Protoformer/blob/main/visualization/arvix100.png)
 ### Installation
 
-1. You can download a copy of all the files in this repository by cloning the following repo:
+• You can download a copy of all the files in this repository by cloning the repo:
 
-   ```
+   ```Python
    git clone https://github.com/ashfarhangi/Protoformer.git
    ```
 
-2. Install requirement packages
+• Install requirement packages
 
-   ```
+   ```Python
    pip install -r requirements.txt
    ```
 
-3. Enter your Twitter API keys in:
+• Run model.py 
+
+(optional)
+• Enter your Twitter API keys in:
 To use the data properly, you need to use your own official Twitter API. Please replace the API_KEY with you own. as shown below:
     
 
@@ -35,23 +38,13 @@ To use the data properly, you need to use your own official Twitter API. Please 
    const API_KEY = 'ENTER YOUR API';
    ```
 
-4. Run model.py after the dataset has been gathered  
+
 ### Prerequisites
-You'll need a working Python environment to run the code.
-The recommended way to set up your environment is through the
-[Anaconda Python distribution](https://www.anaconda.com/download/) which
-provides the `conda` package manager.
-Anaconda can be installed in your user directory and does not interfere with
-the system Python installation.
-The required dependencies are specified in the file `environment.yml`. We used `conda` virtual environments to manage the project dependencies in
-isolation. Thus, you can install our dependencies without causing conflicts with your
-setup (even with different Python versions).
-Run the following command in the repository folder (where `environment.yml`
-is located) to create a separate environment and install all required
-dependencies in it:
-
-    conda env create
-
+```
+Python
+git
+pip
+```
 
 
 ## License
