@@ -4,6 +4,8 @@
 from src import utils
 from data import dataloader
 from src import metric,model,plot,trainer
+from src.model import Protoformer 
+
 
 
 def run():
@@ -17,4 +19,4 @@ def run():
     model.evaluate()
 
 if __name__ == '__main__':
-    run()    
+    run()
