@@ -7,9 +7,8 @@
 
 If you find this code or idea useful, please consider citing our work:
 
-```
 Farhangi, Ashkan, Ning Sui, Nan Hua, Haiyan Bai, Arthur Huang, and Zhishan Guo. "Protoformer: Embedding Prototypes for Transformers." In Advances in Knowledge Discovery and Data Mining: 26th Pacific-Asia Conference, PAKDD 2022, Chengdu, China, May 16–19, 2022, Proceedings, Part I, pp. 447-458. 2022.
-```
+
 
 ```
 @inproceedings{farhangi2022protoformer,
