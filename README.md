@@ -5,20 +5,6 @@
 [![Conference](http://img.shields.io/badge/PAKDD-2022-4b44ce.svg)](https://link.springer.com/chapter/10.1007/978-3-031-05933-9_35)
 </div>
 
-If you find this repository useful, please consider citing our work:
-
-Farhangi, Ashkan, Ning Sui, Nan Hua, Haiyan Bai, Arthur Huang, and Zhishan Guo. "Protoformer: Embedding Prototypes for Transformers." In Advances in Knowledge Discovery and Data Mining: 26th Pacific-Asia Conference, PAKDD 2022, Chengdu, China, May 16–19, 2022, Proceedings, Part I, pp. 447-458. 2022.
-
-
-```
-@inproceedings{farhangi2022protoformer,
-  title={Protoformer: Embedding Prototypes for Transformers},
-  author={Farhangi, Ashkan and Sui, Ning and Hua, Nan and Bai, Haiyan and Huang, Arthur and Guo, Zhishan},
-  booktitle={Advances in Knowledge Discovery and Data Mining: 26th Pacific-Asia Conference, PAKDD 2022, Chengdu, China, May 16--19, 2022, Proceedings, Part I},
-  pages={447--458},
-  year={2022}
-}
-```
 
 
 ## Getting Started
@@ -69,6 +55,11 @@ All source code is made available under a GPL-3.0 license. You can freely use an
 The manuscript text is not open source. The authors reserve the rights to the article content, which is currently submitted for publication in the JOURNAL NAME.
 
 ## Citation   
+If you find this repository useful, please consider citing our work:
+
+Farhangi, Ashkan, Ning Sui, Nan Hua, Haiyan Bai, Arthur Huang, and Zhishan Guo. "Protoformer: Embedding Prototypes for Transformers." In Advances in Knowledge Discovery and Data Mining: 26th Pacific-Asia Conference, PAKDD 2022, Chengdu, China, May 16–19, 2022, Proceedings, Part I, pp. 447-458. 2022.
+
+
 ```
 @inproceedings{farhangi2022protoformer,
   title={Protoformer: Embedding Prototypes for Transformers},
