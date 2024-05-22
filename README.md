@@ -5,7 +5,9 @@
 [![Conference](http://img.shields.io/badge/PAKDD-2022-4b44ce.svg)](https://link.springer.com/chapter/10.1007/978-3-031-05933-9_35)
 </div>
 
+## Star History
 
+[![Star History Chart](https://api.star-history.com/svg?repos=ashfarhangi/Protoformer&type=Date)](https://star-history.com/#ashfarhangi/Protoformer&Date)
 
 ## Getting Started
 All source code used to generate the results and figures in the paper are in
