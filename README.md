@@ -1,9 +1,26 @@
 <div align="center">
 
-# Protoformer
-
+# Protoformer: Embedding Prototypes for Transformers
 [![Conference](http://img.shields.io/badge/PAKDD-2022-4b44ce.svg)](https://link.springer.com/chapter/10.1007/978-3-031-05933-9_35)
 </div>
+
+**Published in**: [Advances in Knowledge Discovery and Data Mining: 26th Pacific-Asia Conference, PAKDD 2022](https://pakdd2022.org)
+
+## Overview
+
+Transformers have been widely applied in text classification, but real-world data often contain anomalies and noisy labels that challenge their performance. Protoformer is a novel self-learning framework for Transformers that leverages problematic samples to improve text classification. The framework features a selection mechanism for embedding samples, allowing efficient extraction and utilization of anomaly prototypes and difficult class prototypes.
+
+## Key Features
+
+- **Anomaly Detection**: Automatically detects and adjusts noisy labels to make the model more robust to complex datasets.
+- **Prototype Selection**: Utilizes a selection mechanism for embedding samples, focusing on both anomaly and difficult class prototypes.
+- **Improved Performance**: Demonstrates enhanced performance on datasets with diverse textual structures (e.g., Twitter, IMDB, ArXiv).
+
+## Contributions
+
+1. **Novel Framework**: Leverages harder-to-classify and anomaly samples, providing a solution for classifying complex datasets from the Internet.
+2. **Label Adjustment Procedure**: Robust to noise, making the framework suitable for noisy Internet data and promoting a more robust Transformer model.
+3. **Empirical Evaluation**: Evaluated on multiple datasets with both clean and noisy labels, showing significant performance improvements.
 
 ## Star History
 
@@ -14,9 +31,12 @@ All source code used to generate the results and figures in the paper are in
 the `src` folder. The data used in this study is provided in `data` and the result figures are in `visualization`. See the `README.md` files in each directory for a full description.
 
 ### Datasets
+Protoformer has been tested on the following datasets:
 
-Arvix: 
-![](https://github.com/0415070/Protoformer/blob/main/visualization/arvix100.png)
+Twitter Data: Historical tweets for text classification tasks.
+IMDB Reviews: Movie reviews dataset for sentiment analysis.
+ArXiv Papers: Abstracts and titles of scientific papers for classification tasks.
+
 ### Installation
 
 • You can download a copy of all the files in this repository by cloning the repo:
@@ -54,21 +74,14 @@ pip
 ## License
 All source code is made available under a GPL-3.0 license. You can freely use and modify the code, without warranty, as long as you provide attribution to the authors (e.g., citation). See LICENSE.md for the full license text.
 
-The manuscript text is not open source. The authors reserve the rights to the article content, which is currently submitted for publication in the JOURNAL NAME.
 
 ## Citation   
-If you find this repository useful, please consider citing our work:
-
-Farhangi, Ashkan, Ning Sui, Nan Hua, Haiyan Bai, Arthur Huang, and Zhishan Guo. "Protoformer: Embedding Prototypes for Transformers." In Advances in Knowledge Discovery and Data Mining: 26th Pacific-Asia Conference, PAKDD 2022, Chengdu, China, May 16–19, 2022, Proceedings, Part I, pp. 447-458. 2022.
-
-
 ```
-@inproceedings{farhangi2022protoformer,
+@inproceedings{farhangiprotformer,
   title={Protoformer: Embedding Prototypes for Transformers},
   author={Farhangi, Ashkan and Sui, Ning and Hua, Nan and Bai, Haiyan and Huang, Arthur and Guo, Zhishan},
-  booktitle={Advances in Knowledge Discovery and Data Mining: 26th Pacific-Asia Conference, PAKDD 2022, Chengdu, China, May 16--19, 2022, Proceedings, Part I},
-  pages={447--458},
-  year={2022}
+  booktitle={Advances in Knowledge Discovery and Data Mining: 26th Pacific-Asia Conference, PAKDD 2022},
+  year={2022},
+  organization={PAKDD}
 }
 ```
-
