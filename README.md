@@ -22,10 +22,6 @@ Transformers have been widely applied in text classification, but real-world dat
 2. **Label Adjustment Procedure**: Robust to noise, making the framework suitable for noisy Internet data and promoting a more robust Transformer model.
 3. **Empirical Evaluation**: Evaluated on multiple datasets with both clean and noisy labels, showing significant performance improvements.
 
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=ashfarhangi/Protoformer&type=Date)](https://star-history.com/#ashfarhangi/Protoformer&Date)
-
 ## Getting Started
 All source code used to generate the results and figures in the paper are in
 the `src` folder. The data used in this study is provided in `data` and the result figures are in `visualization`. See the `README.md` files in each directory for a full description.
